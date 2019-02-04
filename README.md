@@ -1,4 +1,4 @@
-London unemployment rate - is ad dataset scraped from [LondonData](https://data.london.gov.uk/) website.
+London unemployment rate - is an dataset scraped from [LondonData](https://data.london.gov.uk/) website.
 
 
 ### Data
