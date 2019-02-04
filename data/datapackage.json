@@ -1,0 +1,52 @@
+{
+  "bytes": 9732,
+  "count_of_rows": 94,
+  "hash": "f375f63a1a1dbf567846665c24118dfa",
+  "name": "unemployment-rate",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "name": "unemployment-rate",
+      "path": "data/unemployment-rate.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "%Y-%m-%d",
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "unemployment_real_numbers",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "unemployment_rate",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "London unemployment rate"
+}
