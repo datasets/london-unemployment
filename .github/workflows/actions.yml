@@ -1,4 +1,4 @@
-name: Update gdp data
+name: london unemployment data
 
 on:
   # Schedule to run on the 1st day of each month
