@@ -14,10 +14,10 @@ To update the data run the process script locally:
 
 ```
 # Install dataflows
-pip install dataflows
+pip install -r scripts/requirements.txt
 
 # Run the script
-python london_unemployment.py
+python scripts/london_unemployment.py
 ```
 
 ### License
