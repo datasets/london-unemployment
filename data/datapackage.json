@@ -1,7 +1,7 @@
 {
   "bytes": 8101,
   "count_of_rows": 166,
-  "hash": "049b50f65466831ab391964b7ceaf4aa",
+  "hash": "99999ac3f10d251dfb9edf2f05240593",
   "name": "unemployment-rate",
   "profile": "data-package",
   "resources": [
@@ -20,7 +20,7 @@
       "format": "csv",
       "hash": "c5522bf53f3e15fe88fa4850ae73b772",
       "name": "unemployment-rate",
-      "path": "data\\unemployment-rate.csv",
+      "path": "data/unemployment-rate.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
