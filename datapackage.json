@@ -1,0 +1,53 @@
+{
+  "name": "london-unemployment",
+  "title": "London unemployment rate",
+  "description": "Monthly London unemployment totals and unemployment rates.",
+  "profile": "data-package",
+  "licenses": [
+    {
+      "name": "Open Government Licence v3.0",
+      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "Open Government Licence v3.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "London Datastore",
+      "path": "https://data.london.gov.uk",
+      "title": "London Datastore"
+    }
+  ],
+  "resources": [
+    {
+      "name": "unemployment-rate",
+      "path": "data/data/unemployment-rate.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "format": "%Y-%m-%d"
+          },
+          {
+            "name": "unemployment_real_numbers",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "unemployment_rate",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "version": "0.1.0"
+}
