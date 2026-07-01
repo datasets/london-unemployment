@@ -1,12 +1,12 @@
 {
-  "bytes": 8863,
-  "count_of_rows": 182,
-  "hash": "026b3fe41b828fcf50e1adc5701d2ac3",
+  "bytes": 8912,
+  "count_of_rows": 183,
+  "hash": "952679b84080510b85c581b9cba14679",
   "name": "unemployment-rate",
   "profile": "data-package",
   "resources": [
     {
-      "bytes": 8863,
+      "bytes": 8912,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -18,7 +18,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "de2be2daba435799ac92851fa274b49d",
+      "hash": "60f31638299dd1b7daf58e6e0e2a7a60",
       "name": "unemployment-rate",
       "path": "data/unemployment-rate.csv",
       "profile": "tabular-data-resource",
